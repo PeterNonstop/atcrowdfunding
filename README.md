@@ -49,3 +49,6 @@ SpringCloud
   使用 Redis 作为 SpringSession 的 Session 库
   在 Zuul 中使用 ZuulFilter 实现登录状态检查
   在 Zuul 中配置访问各个具体微服务的路由规则
+  
+  
+  https://www.bilibili.com/video/BV1bE411T7oZ?spm_id_from=333.788.b_636f6d6d656e74.32
