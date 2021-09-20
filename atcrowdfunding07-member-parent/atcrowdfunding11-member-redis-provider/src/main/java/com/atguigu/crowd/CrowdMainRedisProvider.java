@@ -1,0 +1,18 @@
+package com.atguigu.crowd;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ *
+ */
+
+@SpringBootApplication
+public class CrowdMainRedisProvider {
+
+    public static void main(String[] args) {
+
+        SpringApplication.run(CrowdMainRedisProvider.class, args);
+
+    }
+}

@@ -1,0 +1,30 @@
+server:
+  port: 15000
+spring:
+  application:
+    name: atguigu-crowd-project
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  redis:
+    host: localhost
+  session:
+    store-type: redis
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+aliyun:
+  oss:
+    access-key-id: LTAI4FtyK7WcqxaiE9ttukNi
+    access-key-secret: 43OFOgMghjsitNsNlTGqcpPGgyzqgU
+    bucket-domain: http://atguigu190830.oss-cn-shenzhen.aliyuncs.com
+    bucket-name: atguigu190830
+    end-point: http://oss-cn-shenzhen.aliyuncs.com
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+logging:
+  level:
+    com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver: WARN
